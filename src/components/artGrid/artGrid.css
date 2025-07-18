@@ -63,3 +63,20 @@
   background-color: #3e4294;
   cursor: pointer;
 }
+
+@media screen and (max-width: 900px) {
+
+  .mainContainer{
+    margin: 50px;
+  }
+  .art{
+    width: 200px;
+    height: 200px;
+  }
+
+  .tagButton{
+    width: 100px;
+  }
+
+  
+}
