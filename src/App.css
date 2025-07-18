@@ -98,3 +98,24 @@ body {
     text-align: left;
   }
 }
+@media screen and (max-width: 450px) {
+
+  .logo{
+    width: 30px;
+    height: 30px;
+  }
+  .title{
+    font-size: 20px;
+  }
+  .nav{
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+    .subtitle{
+      font-size: 20px;
+    }
+  }
+  .blocTitle{
+    margin-top: 20px;
+  }
+}

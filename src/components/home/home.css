@@ -12,7 +12,7 @@
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (min-width: 451px) and (max-width: 900px) {
     .mainContainer{
         width: 350px;
         .text {
@@ -26,5 +26,23 @@
   .homeArt {
     margin: 20px;
     max-width: 350px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+
+        .mainContainer{
+        width: 250px;
+        .text {
+          margin: 20px;
+          max-width: 250px;
+          font-size: 18px;
+          text-align: left;
+        }
+    }
+
+  .homeArt {
+    margin: 20px;
+    max-width: 250px;
   }
 }

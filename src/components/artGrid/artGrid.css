@@ -73,10 +73,32 @@
     width: 200px;
     height: 200px;
   }
-
+  .artGrid__tags{
+    gap: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
   .tagButton{
     width: 100px;
   }
 
   
+}
+@media screen and (max-width: 450px) {
+
+  .art{
+    width: 150px;
+    height: 150px;
+  }
+
+  .artGrid__tags{
+    gap: 5px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .tagButton{
+    width: 75px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
 }

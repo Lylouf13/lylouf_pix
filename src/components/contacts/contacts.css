@@ -25,9 +25,7 @@
 
 @media screen and (max-width: 900px) {
 
-  .mainContainer{
-    margin: 50px;
-  }
+
   .contact__container{
     flex-direction: column;
     align-items: flex-start;
