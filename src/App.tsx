@@ -17,7 +17,7 @@ function App() {
         <div className="navGroup">
         <img
           className="logo"
-          src="/assets/others/logo192.png"
+          src="assets/others/logo192.png"
           alt="logo"
           onClick={() => setCurrentPage("home")}
         />
