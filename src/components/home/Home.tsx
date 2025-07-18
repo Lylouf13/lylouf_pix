@@ -1,8 +1,14 @@
 import "./home.css";
 import { animatedImages } from "../../data/images";
 import image from "../../types/image";
-export default function Home() {
-  const lastArtwork: image = animatedImages.SNAIL;
+
+type HomeProps = {
+  goToGalery: () => void;
+};
+
+
+export default function Home({ goToGalery }: HomeProps) {
+  const lastArtwork: image = animatedImages.DOCUMENTS;
   return (
     <div className="mainContainer">
       <h2 className="blocTitle">Hi there !</h2>
@@ -18,7 +24,7 @@ export default function Home() {
         I'm more into environmental art, but start to tackle in animation lately
       </p>
       <p className="text">Check my work in the galery section !</p>
-      <p className="cta">Galery {">"}</p>
+      <p className="cta" onClick={goToGalery}>Galery {">"}</p>
 
       <h2 className="blocTitle">Latest artwork</h2>
       <img

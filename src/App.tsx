@@ -43,7 +43,7 @@ function App() {
         </h2>
       </nav>
 
-      {currentPage === "home" && <Home />}
+      {currentPage === "home" && <Home goToGalery={() => setCurrentPage("galery")} />}
       {currentPage === "galery" && <ArtGrid />}
       {currentPage === "contact" && <Contacts />}
     </main>

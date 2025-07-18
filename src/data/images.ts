@@ -167,4 +167,10 @@ export const animatedImages: { [name: string]: image } = {
     link: "assets/gifs/Spyglass.gif",
     tags: [TAGS.ANIMATED, TAGS.CHARACTER],
   },
+  DOCUMENTS: {
+    name: "Documents",
+    description: "Special operation by night",
+    link: "assets/gifs/Documents.gif",
+    tags: [TAGS.ANIMATED, TAGS.CHARACTER],
+  }
 };
