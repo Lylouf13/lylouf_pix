@@ -1,44 +1,83 @@
-.text{
-    margin: 20px;
-    width: 500px;
+.mainContainer_contacts {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  .text {
+    width: 100%;
+    margin-top: 10px;
     font-size: 20px;
     text-align: left;
+  }
 }
 
-.mail{
-    user-select: all;
-    font-size: 25px;
-    color : #f5d774e8;
+.mail {
+  user-select: all;
+  font-size: 25px;
+  color: #f5d774e8;
 }
-.contact__container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    gap: 10px;
+.contact__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
 
-    .text{
-        width: 70%;
-    }
+  .text {
+    width: 70%;
+  }
 }
 
-
-@media screen and (max-width: 900px) {
-
-
-  .contact__container{
+@media screen and (min-width: 451px) and (max-width: 900px) {
+  .contact__container {
     flex-direction: column;
     align-items: flex-start;
-    .cta{
-        color: white;
-        align-self: center;
-        text-align: center;
-        background-color: #3e4294;
-        padding-top: 20px;
-        width: 175px;
-        height: 50px;
-        border-radius: 20px;
+    .cta {
+      color: white;
+      align-self: center;
+      text-align: center;
+      background-color: #3e4294;
+      padding-top: 20px;
+      width: 175px;
+      height: 50px;
+      border-radius: 20px;
     }
   }
-  
+  .mainContainer_contacts {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    .text {
+      width: 100%;
+      margin-top: 10px;
+      font-size: 20px;
+      text-align: left;
+    }
+  }
+}
+@media screen and (max-width: 450px) {
+  .contact__container {
+    flex-direction: column;
+    align-items: flex-start;
+    .cta {
+      color: white;
+      align-self: center;
+      text-align: center;
+      background-color: #3e4294;
+      padding-top: 20px;
+      width: 175px;
+      height: 50px;
+      border-radius: 20px;
+    }
+  }
+  .mainContainer_contacts {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    .text {
+      width: 100%;
+      margin-top: 10px;
+      font-size: 20px;
+      text-align: left;
+    }
+  }
 }

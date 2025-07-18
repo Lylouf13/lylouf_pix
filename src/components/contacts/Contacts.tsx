@@ -2,7 +2,7 @@ import "./contacts.css";
 
 export default function Contacts() {
   return (
-    <div className="mainContainer">
+    <div className="mainContainer_contacts">
       <h2 className="blocTitle">Keep in touch !</h2>
       <p className="text">Here you'll find where to reach me !</p>
       <p className="text">Send a mail to discuss your project :</p>
