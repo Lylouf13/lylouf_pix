@@ -1,0 +1,65 @@
+.artGrid {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.artGrid__tags {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.artGrid__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+.art {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: all 0.6s ease-in-out;
+  @starting-style {
+    opacity: 0;
+    transform: scale(0.6);
+  }
+}
+.art:hover {
+  transition: all 0.2s ease-in-out;
+  z-index: 3;
+  transform: scale(1.1);
+}
+
+.tagButton {
+  width: 150px;
+  transition: all 0.5s ease-in-out;
+  background-color: rgb(44, 44, 63);
+  padding: 10px;
+  border-radius: 30px;
+}
+.tagButton.active {
+  border: none;
+  background-color: #74a1f5e8;
+
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+}
+
+.tagButton:hover:not(.active) {
+  transition: all 0.5s ease-in-out;
+  background-color: #3e4294;
+  cursor: pointer;
+}

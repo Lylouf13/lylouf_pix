@@ -1,0 +1,23 @@
+.text{
+    margin: 20px;
+    width: 500px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.mail{
+    user-select: all;
+    font-size: 25px;
+    color : #f5d774e8;
+}
+.contact__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+
+    .text{
+        width: 70%;
+    }
+}
