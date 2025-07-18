@@ -3,7 +3,6 @@ export default function ImageContainer({
   image,
   onClick,
   tabIndex,
-  index,
 }: {
   image: image;
   onClick: () => void;
