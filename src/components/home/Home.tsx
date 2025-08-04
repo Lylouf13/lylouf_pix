@@ -1,5 +1,5 @@
 import "./home.css";
-import { animatedImages } from "../../data/images";
+import { animatedImages, images } from "../../data/images";
 import image from "../../types/image";
 
 type HomeProps = {
@@ -8,7 +8,7 @@ type HomeProps = {
 
 
 export default function Home({ goToGalery }: HomeProps) {
-  const lastArtwork: image = animatedImages.DOCUMENTS;
+  const lastArtwork: image = images.GROVESEEKER;
   return (
     <div className="mainContainer">
       <h2 className="blocTitle">Hi there !</h2>
