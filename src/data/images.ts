@@ -2,6 +2,12 @@ import { TAGS } from "../enums/tags";
 import image from "../types/image";
 
 export const images: { [name: string]: image } = {
+  GROVESEEKER: {
+    name: "The Groveseeker",
+    description: "Mothership of the Silet, an aboriginal tribe",
+    link: "assets/images/Groveseeker.png",
+    tags: [TAGS.ENVIRONMENTAL],
+  },
   CHAT_GIROUETTE: {
     name: "Chat Girouette",
     description: "A chill morning sunrise on the countryside",
