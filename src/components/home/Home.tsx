@@ -1,5 +1,5 @@
 import "./home.css";
-import { animatedImages, images } from "../../data/images";
+import {  images } from "../../data/images";
 import image from "../../types/image";
 
 type HomeProps = {
