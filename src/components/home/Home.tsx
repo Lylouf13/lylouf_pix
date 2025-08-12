@@ -8,7 +8,7 @@ type HomeProps = {
 
 
 export default function Home({ goToGalery }: HomeProps) {
-  const lastArtwork: image = images.GROVESEEKER;
+  const lastArtwork: image = images.MILKY_WAY_2;
   return (
     <div className="mainContainer">
       <h2 className="blocTitle">Hi there !</h2>

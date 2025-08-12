@@ -2,6 +2,12 @@ import { TAGS } from "../enums/tags";
 import image from "../types/image";
 
 export const images: { [name: string]: image } = {
+  MILKY_WAY_2: {
+    name: "Milky Way 2025",
+    description: "On it's own floaty way ~ 2025 remake",
+    link: "assets/images/MilkyWay2025.png",
+    tags: [TAGS.ENVIRONMENTAL],
+  },
   GROVESEEKER: {
     name: "The Groveseeker",
     description: "Mothership of the Silet, an aboriginal tribe",
@@ -178,5 +184,5 @@ export const animatedImages: { [name: string]: image } = {
     description: "Special operation by night",
     link: "assets/gifs/Documents.gif",
     tags: [TAGS.ANIMATED, TAGS.CHARACTER],
-  }
+  },
 };
