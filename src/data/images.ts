@@ -119,6 +119,12 @@ export const images: { [name: string]: image } = {
 };
 
 export const animatedImages: { [name: string]: image } = {
+  CRAFTMANS_BURDEN: {
+    name: "Craftman's Burden",
+    description: "Until it's sufficent",
+    link: "assets/gifs/CraftmansBurden.gif",
+    tags: [TAGS.ANIMATED, TAGS.CHARACTER],
+  },
   ARACHNOPHOBIA: {
     name: "Arachnophobia",
     description: "8 legs, 8 eyes, 1 cave",
