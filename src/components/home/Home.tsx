@@ -1,14 +1,14 @@
 import "./home.css";
 import image from "../../types/image";
-// import {  images } from "../../data/images";
-import { animatedImages } from "../../data/images";
+import {  images } from "../../data/images";
+// import { animatedImages } from "../../data/images";
 type HomeProps = {
   goToGalery: () => void;
 };
 
 
 export default function Home({ goToGalery }: HomeProps) {
-  const lastArtwork: image = animatedImages.CRAFTMANS_BURDEN;
+  const lastArtwork: image = images.THE_BANNISHED;
   return (
     <div className="mainContainer">
       <h2 className="blocTitle">Hi there !</h2>

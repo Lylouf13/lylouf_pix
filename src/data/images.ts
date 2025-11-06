@@ -2,6 +2,30 @@ import { TAGS } from "../enums/tags";
 import image from "../types/image";
 
 export const images: { [name: string]: image } = {
+  THE_BANNISHED: {
+    name: "The Bannished",
+    description: "Love from the banished",
+    link: "assets/images/The_Bannished.png",
+    tags: [TAGS.ENVIRONMENTAL, TAGS.CHARACTER],
+  },
+  SKONG_MARROWD: {
+    name: "The Marrow",
+    description: "Silksong Fan art",
+    link: "assets/images/Skong_marrow.png",
+    tags: [TAGS.ENVIRONMENTAL, TAGS.CHARACTER],
+  },
+  SKONG_WHITEWARD: {
+    name: "Whiteward",
+    description: "Silksong Fan art",
+    link: "assets/images/Skong_Whiteward.png",
+    tags: [TAGS.ENVIRONMENTAL, TAGS.CHARACTER],
+  },
+  SHELLWOOD: {
+    name: "Shellwood",
+    description: "Silksong Fan art",
+    link: "assets/images/Shellwood.png",
+    tags: [TAGS.ENVIRONMENTAL, TAGS.CHARACTER],
+  },
   MILKY_WAY_2: {
     name: "Milky Way 2025",
     description: "On it's own floaty way ~ 2025 remake",
@@ -119,6 +143,12 @@ export const images: { [name: string]: image } = {
 };
 
 export const animatedImages: { [name: string]: image } = {
+    COGWORK_DANCERS: {
+    name: "Cogwork Dancers",
+    description: "Silksong Fan art",
+    link: "assets/gifs/CogworkDancers.gif",
+    tags: [TAGS.ANIMATED, TAGS.CHARACTER],
+  },
   CRAFTMANS_BURDEN: {
     name: "Craftman's Burden",
     description: "Until it's sufficent",
