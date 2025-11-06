@@ -11,10 +11,17 @@
 }
 
 .mail {
-  user-select: all;
-  font-size: 25px;
-  color: #f5d774e8;
+  font-size: 20px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 25px;
+  background-color: #3e4294;
+  
+  user-select:text;
+  ;
+  transition: all 0.3s ease-in-out;
 }
+
 .contact__container {
   display: flex;
   flex-direction: row;
