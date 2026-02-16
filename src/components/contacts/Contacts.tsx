@@ -10,10 +10,12 @@ export default function Contacts() {
       <p className="mail">lylouf.pix@gmail.com</p>
 
       <p className="text">Find me here and there !</p>
+      <div className="cardContainer">
       <ContactCard target="https://twitter.com/lylouf13" text="Twitter" color={ContactCardTags.X} />
       <ContactCard target="https://www.instagram.com/lylouf_pix" text="Instagram"color={ContactCardTags.IG}/>
       <ContactCard target="https://bsky.app/profile/lylouf.bsky.social" text="Bluesky" color={ContactCardTags.BK}/>
       <ContactCard target="https://lylouf.itch.io/" text="Itch.io" color={ContactCardTags.Itch}/>
+      </div>
     </div>
   );
 }

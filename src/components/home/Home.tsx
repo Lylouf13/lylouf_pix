@@ -21,7 +21,7 @@ export default function Home({ goToGalery }: HomeProps) {
         lately
       </p>
       <p className="text">Check my work in the galery section !</p>
-      <p className="cta" onClick={goToGalery}>
+      <p className="cta galeryBtn" onClick={goToGalery}>
         Galery {">"}
       </p>
 
