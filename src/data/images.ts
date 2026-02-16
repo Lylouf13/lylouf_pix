@@ -7,7 +7,7 @@ export const images: { [name: string]: image } = {
   GOBLIN_SQUAD: {
     name: "GobSquad",
     description: "GobSquad Fan art",
-    link: "assets/gifs/GoblinSquad.gif",
+    link: "assets/gifs/GoblinSquad.webm",
     tags: [TAGS.ANIMATED, TAGS.CHARACTER],
   },
   WHITEWARD_2: {
@@ -43,25 +43,25 @@ export const images: { [name: string]: image } = {
   FOLLOW_THE_LIGHT : {
     name: "Follow the light",
     description: "When in doubt, follow it",
-    link: "assets/gifs/FollowTheLight.gif",
+    link: "assets/gifs/FollowTheLight.webm",
     tags: [TAGS.ANIMATED, TAGS.CHARACTER],
   },
   BONESTORM: {
     name: "Bonestorm",
     description: "Lord Marrowgar Fan art",
-    link: "assets/gifs/Bonestorm.gif",
+    link: "assets/gifs/Bonestorm.webm",
     tags: [TAGS.ANIMATED, TAGS.CHARACTER],
   },
   CRAFTMANS_BURDEN: {
     name: "Craftman's Burden",
     description: "Until it's sufficent",
-    link: "assets/gifs/CraftmansBurden.gif",
+    link: "assets/gifs/CraftmansBurden.webm",
     tags: [TAGS.ANIMATED, TAGS.CHARACTER],
   },
   COGWORK_DANCERS: {
     name: "Cogwork Dancers",
     description: "Silksong Fan art",
-    link: "assets/gifs/CogworkDancers.gif",
+    link: "assets/gifs/CogworkDancers.webm",
     tags: [TAGS.ANIMATED, TAGS.CHARACTER],
   },
   THE_BANNISHED: {
@@ -155,55 +155,55 @@ export const images: { [name: string]: image } = {
   ARACHNOPHOBIA: {
     name: "Arachnophobia",
     description: "8 legs, 8 eyes, 1 cave",
-    link: "assets/gifs/Arachnophobia.gif",
+    link: "assets/gifs/Arachnophobia.webm",
     tags: [TAGS.ANIMATED],
   },
   CAPTAIN_ANIM_PACK: {
     name: "Captain Anim Pack",
     description: "Captain Catou animations for a potential 2D game",
-    link: "assets/gifs/CaptainAnimPack.gif",
+    link: "assets/gifs/CaptainAnimPack.webm",
     tags: [TAGS.ANIMATED, TAGS.CHARACTER],
   },
   CHEST_DROP: {
     name: "Chest Drop",
     description: "Chest Drop animation made for my twitch channel sub event",
-    link: "assets/gifs/ChestDrop.gif",
+    link: "assets/gifs/ChestDrop.webm",
     tags: [TAGS.ANIMATED, TAGS.CHARACTER],
   },
   HYPE_TRAIN: {
     name: "Hype Train",
     description: "Hype Train animation made for my twitch channel event",
-    link: "assets/gifs/HypeTrain.gif",
+    link: "assets/gifs/HypeTrain.webm",
     tags: [TAGS.ANIMATED, TAGS.CHARACTER],
   },
   LAMBERT: {
     name: "Lambert",
     description: "A Lambert fan art",
-    link: "assets/gifs/Lambert.gif",
+    link: "assets/gifs/Lambert.webm",
     tags: [TAGS.ANIMATED, TAGS.CHARACTER],
   },
   PILUL_RAID: {
     name: "Raid fiesta",
     description: "Animation made for my twitch channel raid event",
-    link: "assets/gifs/PilulRaid.gif",
+    link: "assets/gifs/PilulRaid.webm",
     tags: [TAGS.ANIMATED, TAGS.CHARACTER],
   },
   ROR_MERC: {
     name: "Ror Merc",
     description: "Mercenary from Risk of Rain 2 fan art",
-    link: "assets/gifs/RoRMerc.gif",
+    link: "assets/gifs/RoRMerc.webm",
     tags: [TAGS.ENVIRONMENTAL, TAGS.ANIMATED, TAGS.CHARACTER],
   },
   SNAIL: {
     name: "Snail",
     description: "Snailriding merchant",
-    link: "assets/gifs/Snail.gif",
+    link: "assets/gifs/Snail.webm",
     tags: [TAGS.ANIMATED, TAGS.CHARACTER],
   },
   SPYGLASS: {
     name: "Spyglass",
     description: "animation made for my twitch channel follow event",
-    link: "assets/gifs/Spyglass.gif",
+    link: "assets/gifs/Spyglass.webm",
     tags: [TAGS.ANIMATED, TAGS.CHARACTER],
   },
 };

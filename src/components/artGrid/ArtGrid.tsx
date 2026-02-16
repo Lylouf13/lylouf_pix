@@ -5,39 +5,22 @@ import { images } from "../../data/images";
 import image from "../../types/image";
 import { TAGS } from "../../enums/tags";
 import { useState } from "react";
+import Media from "./Media";
 
 export default function ArtGrid() {
   const dispatch = useAppDispatch();
   const [currentTag, setCurrentTag] = useState<TAGS | null>(null);
 
   const onClickHandler = (value: image) => {
-    dispatch(openViewer(value));
+    dispatch(openViewer(value as image));
   };
   const buildGalery = (elements: { [name: string]: image }) => {
     return Object.entries(elements).map(([key, value]) => {
-      if (currentTag != null && elements[key].tags.includes(currentTag)) {
-        return (
-          <img
-            key={key}
-            className="art"
-            src={value.link}
-            alt={value.name}
-            onClick={() => onClickHandler(value)}
-            tabIndex={0}
-          />
-        );
-      } else if (currentTag == null) {
-        return (
-          <img
-            key={key}
-            className="art"
-            src={value.link}
-            alt={value.name}
-            onClick={() => onClickHandler(value)}
-            tabIndex={0}
-          />
-        );
-      }
+      // If a tag is selected AND this item doesn't have it → skip
+      if (currentTag && !value.tags.includes(currentTag)) return null;
+
+      // Otherwise render it
+      return <Media key={key} value={value} onClickHandler={onClickHandler} viewer={false}/>;
     });
   };
 
@@ -64,9 +47,7 @@ export default function ArtGrid() {
           );
         })}
       </div>
-      <div className="artGrid__container">
-        {currentGalery}
-      </div>
+      <div className="artGrid__container">{currentGalery}</div>
     </div>
   );
 }
