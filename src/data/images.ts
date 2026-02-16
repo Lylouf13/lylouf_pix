@@ -68,7 +68,7 @@ export const images: { [name: string]: image } = {
     name: "The Bannished",
     description: "Love from the banished",
     link: "assets/images/The_Bannished.png",
-    tags: [TAGS.ENVIRONMENTAL, TAGS.CHARACTER],
+    tags: [TAGS.CHARACTER],
   },
   SKONG_MARROWD: {
     name: "The Marrow",
@@ -143,7 +143,7 @@ export const images: { [name: string]: image } = {
     name: "Skyforge",
     description: "Blacksmith AND gardener.",
     link: "assets/images/Skyforge.png",
-    tags: [TAGS.ENVIRONMENTAL, TAGS.ISOMETRIC],
+    tags: [TAGS.ENVIRONMENTAL],
   },
   SOUTH_SHORE: {
     name: "South Shore",

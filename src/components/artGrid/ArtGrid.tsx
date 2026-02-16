@@ -20,7 +20,7 @@ export default function ArtGrid() {
       if (currentTag && !value.tags.includes(currentTag)) return null;
 
       // Otherwise render it
-      return <Media key={key} value={value} onClickHandler={onClickHandler} viewer={false}/>;
+      return <Media  key={`${key}-${currentTag ?? "all"}`} value={value} onClickHandler={onClickHandler} viewer={false}/>;
     });
   };
 
