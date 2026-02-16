@@ -1,7 +1,7 @@
 import "./artGrid.css";
 import { useAppDispatch } from "../../redux/hooks";
 import { openViewer } from "../../redux/reducers/viewerReducer";
-import { images, animatedImages } from "../../data/images";
+import { images } from "../../data/images";
 import image from "../../types/image";
 import { TAGS } from "../../enums/tags";
 import { useState } from "react";
@@ -42,7 +42,6 @@ export default function ArtGrid() {
   };
 
   const currentGalery = buildGalery(images);
-  const currentAnimGalery = buildGalery(animatedImages);
 
   return (
     <div className="artGrid">
@@ -66,7 +65,7 @@ export default function ArtGrid() {
         })}
       </div>
       <div className="artGrid__container">
-        {currentGalery} {currentAnimGalery}
+        {currentGalery}
       </div>
     </div>
   );
