@@ -15,6 +15,7 @@
       align-self: center;
       margin-bottom: 30px;
       width: 100%;
+      border: #2c2c3f 2px solid;
     }
     .cta {
       align-self: flex-end;
@@ -35,6 +36,11 @@
 @media screen and (min-width: 451px) and (max-width: 900px) {
   .mainContainer {
     width: 70%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: rgb(24, 29, 39);
+    border-left: 2px solid rgba(0, 0, 0, 0.5);
+    border-right: 2px solid rgba(0, 0, 0, 0.5);
     .text {
       width: 100%;
       font-size: 20px;
@@ -47,13 +53,19 @@
       align-self: center;
       margin-bottom: 30px;
       max-width: 100%;
+      border: #2c2c3f 2px solid;
     }
   }
 }
 
 @media screen and (max-width: 450px) {
   .mainContainer {
-    width: 90%;
+    width: 85%;
+    padding-left: 4%;
+    padding-right: 4%;
+    background-color: rgb(24, 29, 39);
+    border-left: 2px solid rgba(0, 0, 0, 0.5);
+    border-right: 2px solid rgba(0, 0, 0, 0.5);
     .text {
       width: 100%;
       font-size: 20px;
@@ -67,5 +79,6 @@
     align-self: center;
     margin-bottom: 30px;
     max-width: 100%;
+    border: #2c2c3f 2px solid;
   }
 }
