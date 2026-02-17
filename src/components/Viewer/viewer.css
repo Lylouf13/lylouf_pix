@@ -76,3 +76,18 @@
     color: rgba(0, 0, 0, 0);
   }
 }
+
+@media screen and (max-width: 450px) {
+
+.viewerTitle {
+  font-size: 25px;
+  width: 80%;
+  justify-self: center;
+}
+.viewerDescription {
+
+  font-size: 20px;
+  width: 80%;
+  justify-self: center;
+}
+}

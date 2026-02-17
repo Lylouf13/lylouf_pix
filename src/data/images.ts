@@ -6,13 +6,13 @@ export const images: { [name: string]: image } = {
 
   GOBLIN_SQUAD: {
     name: "GobSquad",
-    description: "GobSquad Fan art",
+    description: "Gobsquad ready for action",
     link: "assets/gifs/GoblinSquad.webm",
     tags: [TAGS.ANIMATED, TAGS.CHARACTER],
   },
   WHITEWARD_2: {
-    name: "WhiteWard 2",
-    description: "WhiteWard 2 Fan art",
+    name: "Whiteward's Abomination",
+    description: "Wanders in the corridors",
     link: "assets/images/Whiteward2.png",
     tags: [TAGS.CHARACTER],
   },
