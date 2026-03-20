@@ -6,7 +6,7 @@ type HomeProps = {
 };
 
 export default function Home({ goToGalery }: HomeProps) {
-  const lastArtwork: image = images.GOBLIN_SQUAD;
+  const lastArtwork: image = images.TREECATSHORE;
   return (
     <main className="mainContainer">
       <h2 className="blocTitle">Hi there !</h2>
@@ -26,16 +26,16 @@ export default function Home({ goToGalery }: HomeProps) {
       </p>
 
       <h2 className="blocTitle">Latest artwork</h2>
-      {/* <img
+      <img
         className="homeArt"
         src={lastArtwork.link}
         alt={lastArtwork.name}
         onClick={() => {}}
         tabIndex={0}
-      /> */}
-      <video autoPlay loop muted playsInline tabIndex={0} className="homeArt">
+      />
+      {/* <video autoPlay loop muted playsInline tabIndex={0} className="homeArt">
         <source src={lastArtwork.link} className="homeArt" type="video/webm" />
-      </video>
+      </video> */}
     </main>
   );
 }

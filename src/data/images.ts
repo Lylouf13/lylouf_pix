@@ -3,7 +3,18 @@ import image from "../types/image";
 
 export const images: { [name: string]: image } = {
 
-
+  TREECATSHORE: {
+    name: "TreeCatShore",
+    description: "Somewhere...",
+    link: "assets/images/Treecatshore.png",
+    tags: [TAGS.ENVIRONMENTAL],
+  },
+  MOUNTAIN_GRINDER: {
+    name: "Mountain Grinder",
+    description: "Across the rocky mountains",
+    link: "assets/images/MountainGrinder.png",
+    tags: [TAGS.ENVIRONMENTAL],
+  },
   GOBLIN_SQUAD: {
     name: "GobSquad",
     description: "Gobsquad ready for action",
