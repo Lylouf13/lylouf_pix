@@ -62,13 +62,24 @@
 }
 
 @media screen and (min-width: 451px) and (max-width: 900px) {
+
+  .flexHome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+
   .mainContainer {
     width: 70%;
     padding-left: 5%;
     padding-right: 5%;
-    background-color: rgb(24, 29, 39);
-    border-left: 2px solid rgba(0, 0, 0, 0.5);
-    border-right: 2px solid rgba(0, 0, 0, 0.5);
+    margin-top : 20px;
+    border: rgb(56, 105, 202) 2px solid;
+    background-color: rgb(45, 70, 121);
+    border-radius: 30px;
+
     .text {
       width: 100%;
       font-size: 20px;
@@ -84,16 +95,37 @@
       border: #2c2c3f 2px solid;
     }
   }
+    .logoLinks{
+    width: 128px;
+    image-rendering:pixelated;
+    border:white 1px solid;
+    cursor:pointer;
+  }
+  .logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
 }
 
 @media screen and (max-width: 450px) {
+    .flexHome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
   .mainContainer {
     width: 85%;
     padding-left: 4%;
     padding-right: 4%;
-    background-color: rgb(91, 107, 139);
-    border-left: 2px solid rgba(0, 0, 0, 0.5);
-    border-right: 2px solid rgba(0, 0, 0, 0.5);
+    margin-top : 20px;
+    border: rgb(56, 105, 202) 2px solid;
+    background-color: rgb(45, 70, 121);
+    border-radius: 30px;
     .text {
       width: 100%;
       font-size: 20px;
@@ -108,5 +140,19 @@
     margin-bottom: 30px;
     max-width: 100%;
     border: #2c2c3f 2px solid;
+  }
+    .logoLinks{
+    width: 128px;
+    image-rendering:pixelated;
+    border:white 1px solid;
+    cursor:pointer;
+  }
+  .logos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
   }
 }
