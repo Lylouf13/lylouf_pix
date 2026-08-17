@@ -2,6 +2,24 @@ import { TAGS } from "../enums/tags";
 import image from "../types/image";
 
 export const images: { [name: string]: image } = {
+  BUDDY_BIRB: {
+    name: "Birb with a cherry",
+    description: "Nam Nam fruity fruits",
+    link: "assets/images/Buddy.png",
+    tags: [TAGS.CHARACTER],
+  },
+    CHOP_CHOP: {
+    name: "Chop Chop",
+    description: "Fresh meat...",
+    link: "assets/gifs/ChopChop.webm",
+    tags: [TAGS.ANIMATED, TAGS.CHARACTER],
+  },
+  OTHER_SIDE: {
+  name: "The isle on the other side",
+  description: "Looking forward",
+  link: "assets/images/OtherSide.png",
+  tags: [TAGS.ENVIRONMENTAL],
+  },
 
   TREECATSHORE: {
     name: "TreeCatShore",

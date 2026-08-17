@@ -21,7 +21,7 @@ function App() {
           alt="logo"
           onClick={() => setCurrentPage("galery")}
         />
-        <h2 className="title"> Lylouf</h2>
+        <h2 className="title"> Lylouf's Galery</h2>
         </div>
         {/* <h2
           className={currentPage === "home" ? "subtitle active" : "subtitle"}
