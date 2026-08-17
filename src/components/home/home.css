@@ -1,15 +1,28 @@
 @media screen and (min-width: 901px) {
+  .flexHome{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  
   .mainContainer {
     width: 35%;
-    padding-left: 5%;
-    padding-right: 5%;
-    background-color: rgb(24, 29, 39);
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top : 20px;
+    background-color: rgb(56, 105, 202);
     border-left: 2px solid rgba(0, 0, 0, 0.5);
     border-right: 2px solid rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
     .text {
       width: 100%;
       font-size: 20px;
       text-align: left;
+    }
+    .homeTitle{
+      Color: rgb(255, 207, 105);
     }
     .homeArt {
       align-self: center;
@@ -30,6 +43,20 @@
     .cta:hover {
       background-color: #5080d8e8;
     }
+  }
+
+  .logoLinks{
+    width: 128px;
+    image-rendering:pixelated;
+    border:white 1px solid;
+    cursor:pointer;
+  }
+  .logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
   }
 }
 
@@ -63,7 +90,7 @@
     width: 85%;
     padding-left: 4%;
     padding-right: 4%;
-    background-color: rgb(24, 29, 39);
+    background-color: rgb(91, 107, 139);
     border-left: 2px solid rgba(0, 0, 0, 0.5);
     border-right: 2px solid rgba(0, 0, 0, 0.5);
     .text {

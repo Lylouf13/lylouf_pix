@@ -1,41 +1,34 @@
 import "./home.css";
 import image from "../../types/image";
 import { images } from "../../data/images";
-type HomeProps = {
-  goToGalery: () => void;
-};
 
-export default function Home({ goToGalery }: HomeProps) {
-  const lastArtwork: image = images.TREECATSHORE;
+
+export default function Home() {
   return (
-    <main className="mainContainer">
-      <h2 className="blocTitle">Hi there !</h2>
+    <main className="flexHome" >
+      <div className="mainContainer">
+      <h2 className="blocTitle homeTitle">Hi there !</h2>
       <p className="text">I'm Lylouf and you're on my portfolio !</p>
-      <p className="text">
-        Passionnated with games and art in general, i started my professionnal journey
-        with game design and ended up shifting to pixel art a few years later.
-      </p>
-      <p className="text">
-        I'm now looking for projects as a pixel artist, be it games or individual
-        commissions. I'm more into environmental art, but start to tackle in animation
-        lately
-      </p>
-      <p className="text">Check my work in the galery section !</p>
-      <p className="cta galeryBtn" onClick={goToGalery}>
-        Galery {">"}
-      </p>
 
-      <h2 className="blocTitle">Latest artwork</h2>
-      <img
-        className="homeArt"
-        src={lastArtwork.link}
-        alt={lastArtwork.name}
-        onClick={() => {}}
-        tabIndex={0}
-      />
-      {/* <video autoPlay loop muted playsInline tabIndex={0} className="homeArt">
-        <source src={lastArtwork.link} className="homeArt" type="video/webm" />
-      </video> */}
+      <p className="text">
+        I'm looking for projects as a pixel artist, be it games or individual
+        commissions. I'm more into environmental art, but also doing animation
+      </p>
+      </div>
+      <div className="logosContainer">
+        <h2> Catch me elswhere !</h2>
+        <div className="logos">
+          <a href="https://www.instagram.com/lylouf_pix" >
+            <img src="assets/others/GramLogo.png" alt="Gram" className="logoLinks"/>
+          </a>
+          <a href="https://twitter.com/lylouf13">
+            <img src="assets/others/XLogo.png" alt="X" className="logoLinks"/>
+          </a>
+          <a href="https://bsky.app/profile/lylouf.bsky.social">
+            <img src="assets/others/BskyLogo.png" alt="Bsky" className="logoLinks"/>
+          </a>
+        </div>
+      </div>
     </main>
   );
 }

@@ -8,7 +8,7 @@ import Contacts from "./components/contacts/Contacts";
 
 function App() {
   const viewerData = useAppSelector((state) => state.viewer);
-  const [currentPage, setCurrentPage] = useState("home");
+  const [currentPage, setCurrentPage] = useState("galery");
 
   return (
     <main className="app">
@@ -19,11 +19,11 @@ function App() {
           className="logo"
           src="assets/others/logo192.png"
           alt="logo"
-          onClick={() => setCurrentPage("home")}
+          onClick={() => setCurrentPage("galery")}
         />
         <h2 className="title"> Lylouf</h2>
         </div>
-        <h2
+        {/* <h2
           className={currentPage === "home" ? "subtitle active" : "subtitle"}
           onClick={() => setCurrentPage("home")}
         >
@@ -40,12 +40,12 @@ function App() {
           onClick={() => setCurrentPage("contact")}
         >
           Contact
-        </h2>
+        </h2> */}
       </nav>
 
-      {currentPage === "home" && <Home goToGalery={() => setCurrentPage("galery")} />}
+      <Home />
       {currentPage === "galery" && <ArtGrid />}
-      {currentPage === "contact" && <Contacts />}
+      {/* {currentPage === "contact" && <Contacts />} */}
     </main>
   );
 }
