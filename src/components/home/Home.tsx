@@ -1,6 +1,4 @@
 import "./home.css";
-import image from "../../types/image";
-import { images } from "../../data/images";
 
 
 export default function Home() {

@@ -4,7 +4,6 @@ import { useAppSelector } from "./redux/hooks";
 import { useState } from "react";
 import Viewer from "./components/Viewer/Viewer";
 import Home from "./components/home/Home";
-import Contacts from "./components/contacts/Contacts";
 
 function App() {
   const viewerData = useAppSelector((state) => state.viewer);
