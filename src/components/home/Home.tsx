@@ -14,7 +14,7 @@ export default function Home() {
       </p>
       </div>
       <div className="logosContainer">
-        <h2> Catch me elswhere !</h2>
+        <h2>Catch me elswhere...</h2>
         <div className="logos">
           <a href="https://www.instagram.com/lylouf_pix" >
             <img src="assets/others/GramLogo.png" alt="Gram" className="logoLinks"/>
@@ -26,6 +26,8 @@ export default function Home() {
             <img src="assets/others/BskyLogo.png" alt="Bsky" className="logoLinks"/>
           </a>
         </div>
+        <h2>Or drop me a line !</h2>
+        <p className="mail">lylouf.pix@gmail.com</p>
       </div>
     </main>
   );
