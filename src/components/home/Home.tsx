@@ -16,13 +16,13 @@ export default function Home() {
       <div className="logosContainer">
         <h2>Catch me elswhere...</h2>
         <div className="logos">
-          <a href="https://www.instagram.com/lylouf_pix" >
+          <a className="logoLinksContainer" href="https://www.instagram.com/lylouf_pix" >
             <img src="assets/others/GramLogo.png" alt="Gram" className="logoLinks"/>
           </a>
-          <a href="https://twitter.com/lylouf13">
+          <a className="logoLinksContainer" href="https://twitter.com/lylouf13">
             <img src="assets/others/XLogo.png" alt="X" className="logoLinks"/>
           </a>
-          <a href="https://bsky.app/profile/lylouf.bsky.social">
+          <a className="logoLinksContainer" href="https://bsky.app/profile/lylouf.bsky.social">
             <img src="assets/others/BskyLogo.png" alt="Bsky" className="logoLinks"/>
           </a>
         </div>
