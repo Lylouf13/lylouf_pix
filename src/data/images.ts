@@ -2,6 +2,42 @@ import { TAGS } from "../enums/tags";
 import image from "../types/image";
 
 export const images: { [name: string]: image } = {
+  CAPTAIN_CATOU_PORTRAIT:{
+    name: "Captain Catou",
+    description: "Latest edition",
+    link: "assets/images/CC2026.png",
+    tags: [TAGS.CHARACTER],
+  },
+  SWORDTEMBER2026:{
+    name: "Swordtember 2026",
+    description: "Selected swords from 2026's swordtember",
+    link: "assets/images/Swordtember2026.png",
+    tags: [],
+  },
+  TALKATIVE: {
+    name: "Talkative Duo",
+    description: "So you finally decided to talk",
+    link: "assets/images/Talkative.png",
+    tags: [TAGS.ENVIRONMENTAL],
+  },
+  COASTAL: {
+    name: "Coastal",
+    description: "Chilling in the sun",
+    link: "assets/images/Coastal.png",
+    tags: [TAGS.ENVIRONMENTAL],
+  },
+  WATEROCKS: {
+    name: "Water & Rocks",
+    description: "water study",
+    link: "assets/images/WateRocks.png",
+    tags: [TAGS.ENVIRONMENTAL],
+  },
+  YOSEMITE: {
+    name: "Yosemite",
+    description: "Yosemite Study",
+    link: "assets/images/Yosemite.png",
+    tags: [TAGS.ENVIRONMENTAL],
+  },
   BUDDY_BIRB: {
     name: "Birb with a cherry",
     description: "Nam Nam fruity fruits",
